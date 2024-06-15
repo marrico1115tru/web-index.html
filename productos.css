@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+
+/*reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*main styling */ 
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background: hsl(0, 38%, 95%);
+    color:black;
+
+
+}
+
+
+h4 { font-size: 1.5rem; }
+
+
+h1,
+h4,
+p {
+    line-height: 1.4em;
+}
+
+p{
+    font-size: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: #000
+    ;
+}
+
+/* utility classes */
+.container1{
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 10px;
+}
+
+.large {
+    font-size: 1.2rem;
+}
+
+
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    padding: 13px  20px;
+}
+
+.btn-lightpink {
+    background: #ee82ee;
+    color: beige;
+    border: 2px solid #ee82ee ;
+    border-radius: 5px;
+
+}
+
+form label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+form .form-group {
+    margin-bottom: 1rem;
+}
+
+form .form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .7rem;
+    font-size: 1rem;
+}
+
+
+/* nav */
+#navbar{
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#navbar .logo {
+    float: left;
+    padding-top: 16px;
+    font-size: 25px;
+}
+
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* showcase */
+#showcase {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#showcase img {
+    width: 50%;
+}
+
+#showcase p{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#showcase a{
+    width: 180px;
+}
+
+/*clientes*/
+#clientes {
+    background-image: linear-gradient(to right, #1b33f0, #d0004a);
+    padding-top: 50px;
+    padding-bottom: 50px;
+} 
+
+.clientes-box {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.clientes-box img {
+    height: 70px;
+}
+
+/*inicio*/
+
+#inicio {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#inicio h4{
+    padding-bottom: 20px;
+}
+
+.inicio-box1{
+    margin: 27%;
+    padding: 0 10px 10px 10px;
+}
+.inicio-box2{
+    margin: 27%;
+    padding: 0 10px 10px 10px;
+}
+.inicio-box3{
+    margin: 27%;
+    padding: 0 10px 10px 10px;
+}
+.inicio-box4{
+    margin: 27%;
+    padding: 0 10px 10px 10px;
+}
+.inicio-box5{
+    margin: 27%;
+    padding: 0 10px 10px 10px;
+}
+.inicio-box6{
+    margin: 27%;
+    padding: 0 10px 10px 10px;
+}
+
+
+
+
+/*referencia*/
+
+#referencia {
+    background: #3e3a52;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#referencia p {
+    text-align: center;
+    padding: 10px 120px;
+}
+
+.referencia-detail {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: right;
+}
+
+.referencia-detail img {
+    float: center;
+    width: 25%;
+
+}
+.referencia-detail-img  img{
+    width: 80px;
+    border-radius: 50%;
+    padding: 500px;
+    float: center;
+}
+
+
+.referencia-detail-name {
+    float: center;
+    width: 50%;
+}
+
+.referencia-detail-name p {
+    padding: 12px 20px !important;
+    float: left;
+}
+
+/*contacto*/
+ 
+#contacto{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#contacto h4{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#contacto form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#contacto button {
+    width: 100%;
+}
+
+/*footer*/
+
+#mainfooter {
+    text-align: center;
+    padding: 40px;
+}    
